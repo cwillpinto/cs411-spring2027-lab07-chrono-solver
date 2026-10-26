@@ -1,0 +1,11 @@
+{
+  "processes": ["P1", "P2"],
+  "events": [
+    {"id": "a", "process": "P1", "kind": "local"},
+    {"id": "b", "process": "P2", "kind": "local"},
+    {"id": "send-m", "process": "P1", "kind": "send", "message": "m"},
+    {"id": "receive-m", "process": "P2", "kind": "receive", "message": "m"},
+    {"id": "send-n", "process": "P2", "kind": "send", "message": "n"},
+    {"id": "receive-n", "process": "P1", "kind": "receive", "message": "n"}
+  ]
+}
