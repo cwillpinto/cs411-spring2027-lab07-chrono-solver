@@ -5,6 +5,8 @@
 **Due:** March 7, 2027  
 **Value:** 100 points
 
+**Starter repository:** [Open the Spring 2027 starter](https://github.com/cwillpinto/cs411-spring2027-lab07-chrono-solver)
+
 ## Purpose
 
 Recover causal order from a distributed message trace. Compute Lamport timestamps, compute vector clocks, and identify which event pairs remain concurrent.

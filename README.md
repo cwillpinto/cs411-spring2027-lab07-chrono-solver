@@ -1,5 +1,7 @@
 # CS 411 Lab 7 Chrono Solver starter
 
+Starter template: https://github.com/cwillpinto/cs411-spring2027-lab07-chrono-solver
+
 This is the intentionally incomplete Go starter for the Spring 2027 Lab 7 handout. The provided trace, command-line runner, and tests establish the contract. Complete the `TODO` rules in `clock.go` and `solver.go`; do not change the expected results in the tests.
 
 The full prompt is `Lab_07_Chrono_Solver.md`. `Lab7_Trace_Template.md` is a blank analysis scaffold; rename your finished copy to `Lab7_Trace.md`.
@@ -26,7 +28,7 @@ If Blackboard links a template repository, choose **Use this template**, create 
 For a direct clone, first create an empty repository under your account. Replace the placeholders below with the starter link supplied in Blackboard and your own empty repository URL:
 
 ```sh
-git clone <instructor-starter-url>
+git clone https://github.com/cwillpinto/cs411-spring2027-lab07-chrono-solver
 cd <cloned-directory>
 git remote rename origin upstream
 git remote add origin <your-empty-repository-url>
